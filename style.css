@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Ubuntu', sans-serif;
+}
+html, body{
+    height: 100%;
+   width: 100%;
+}
+
+#navigation{
+   height: 120px;
+   background-color: #343a40;
+   display: flex;
+   justify-content: space-between;
+   padding: 0 30px;
+   align-items: center;
+}
+.left a {
+   color: white;
+   text-decoration: none;
+   padding: 0 10px;
+   font: 300;
+   font-size: larger;
+   transition: 300ms ease-in-out;
+}
+.left a:hover{
+   color: #28a745;
+}
+
+.logo {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 30px;
+   border-radius: 50%;
+   color: white;
+   height: 180px;
+   background-color: #343a40;
+}
+
+.right a {
+   color: white;
+   text-decoration: none;
+   font: 300;
+   padding: 20px;
+   font-size: larger;
+   background-color: #28a745;
+   border-radius: 8px;
+   transition: 300ms ease-in-out;
+}
+.right a:hover{
+   background-color: #fff;
+   color: black;
+   border: black 1px solid;
+}
+
+
+/* nav complete */
+
+#home{
+   background-image: url(img/banner-img.png);
+   height: 90vh;
+   display: flex;
+   align-items: center;
+}
+
+.home-card{
+   border-radius: 10px;
+   width: 35%;
+   height: 60vh;
+   background-color: #28a745;
+   margin: 0 100px;
+   padding: 40px;
+   color: white;
+}
+.home-card p{
+   line-height: 25px;
+   letter-spacing: 2px;
+}
+
+.apo-btn{
+   padding: 15px;
+   background-color: #343a40;
+   border-radius: 10px;
+   cursor: pointer;
+   color: white;
+   border: none;
+   outline: none;
+   transition: 300ms ease-in-out;
+}
+.apo-btn:hover{
+   background-color: white;
+   color: black;
+   border: 1px solid black;
+}
+
+/* about start */
+
+#about{
+   height: 100vh;
+   width: 100vw;
+   background-color: white;
+   color: grey;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+#about-left{
+   width: 30%;
+   line-height: 25px;
+   letter-spacing: 2px;
+}
+#about-right img{
+   width: 600px;
+}
+.btn{
+   padding: 15px;
+   background-color: #28a745;
+   outline: none;
+   border: none;
+   color: white;
+   border-radius: 10px;
+   cursor: pointer;
+   transition: 300ms ease;
+}
+
+.btn:hover{
+   background-color: #343a40;
+   color: white;
+   border: 1px solid white;
+}
+
+#doctors{
+   height: 130vh;
+   background-image: url(img/care-bg.png);
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   color: white;
+}
+.doc-right{
+   width: 30%;
+   text-align: right;
+   line-height: 25px;
+}
+
+/* doctors complete  */
+
+
+.appointment_section{
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   padding: 0 50px;
+   color: white;
+   background-color: #28a745;
+}
+
+form {
+   max-width: 70vw;
+   margin: 50px auto;
+}
+
+label {
+   display: block;
+   margin-bottom: 8px;
+}
+
+input {
+   width: 100%;
+   padding: 8px;
+   margin-bottom: 16px;
+}
